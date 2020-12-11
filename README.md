@@ -1,4 +1,4 @@
-# Example how to link C code and VHDL code with GHDL"
+# Example how to link C code and VHDL code with GHDL
 
 Create vhdl package and define the functions like in math.vhd. Use those functions in some entity code, like math_tb.vhd. Create a source and header c files, business as usual, example, divide.c, divide.h
 pay attention to data types as mentioned in ghdl documentation(a copy at the end of this document)
