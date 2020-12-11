@@ -18,8 +18,12 @@ begin
   process
            variable l : line;
         begin
-          write (l, sin(60.0));
-          writeline (output, l);
+           write (l, string'("Sine value of 60.0"));
+           writeline (output, l);
+           write (l, sin(60.0));
+           writeline (output, l);
+           write (l, string'("Value of 4.0 / 2.0"));
+           writeline (output, l);
            write (l, divide(4.0, 2.0));
            writeline (output, l);
            wait;
